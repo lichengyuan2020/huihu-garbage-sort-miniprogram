@@ -1,0 +1,4 @@
+<!--components/navBar/navBar.wxml-->
+<view class="nav-bar" style="{{navBarStyles}}">
+  <slot></slot>
+</view>

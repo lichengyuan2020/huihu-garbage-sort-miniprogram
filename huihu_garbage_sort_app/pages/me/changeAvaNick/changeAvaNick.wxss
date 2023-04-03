@@ -1,0 +1,48 @@
+/* pages/me/changeAvaNick/changeAvaNick.wxss */
+  .reminder{
+    font-size: 36rpx;
+    margin-top: 48px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .submit_btn{
+    margin-top: 15px;
+    width: 180rpx;
+    height: 70rpx;
+    background: #2e79fc;
+    color: #fff;
+    border-radius: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36rpx;
+   }
+   .nickname_input{
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 4rpx solid rgb(222, 222, 222);
+    background-color: white;
+    height: 70rpx;
+    border-radius: 100px;
+    font-size: 32rpx;
+    padding-left: 15px;/*此处要用padding-left才可以把光标往右移动15像素，不可以用text-indent*/
+    color: #333;
+   }
+   .avatar-wrapper {
+    box-sizing: border-box;
+    padding-top: 30rpx;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+   .avatar {
+    width: 140rpx;
+    height: 140rpx;
+    border-radius: 0rpx;
+  }
+  .avatar-shown {
+    width: 140rpx;
+    height: 140rpx;
+    border-radius: 10rpx;
+  }

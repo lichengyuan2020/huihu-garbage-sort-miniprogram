@@ -1,0 +1,46 @@
+<!--pages/me/exam-history/more/more.wxml-->
+<!-- <view class="top-label">
+  <view class="label-text">垃圾名称</view>
+  <view class="label-text-score">正确类别</view>
+  <view class="label-text-more">你的答案</view>
+</view> -->
+
+<!-- <view class="container empty" wx:if="{{history_list.length === 0}}">
+  <view class="title">暂无答题历史</view>
+  <view class="subtitle">快去“测试”页面参加垃圾分类测试吧！</view>
+  <footer></footer>
+</view> -->
+
+<view class="history-wrapper">
+    <view class="index-bd">
+      <view class="kind-list">
+        <view class="top-label">
+            <view class="label-text">垃圾名称</view>
+            <view class="label-text-cat">正确类别</view>
+            <view class="label-text-ans">你的答案</view>
+            <view class="label-text-res">结果</view>
+        </view>
+        <block wx:for-items="{{history_list}}" wx:key="{{item.id}}">
+          <view class="{{item.c_id!==item.u_id ? 'kind-list-item-false' : 'kind-list-item-true'}}">
+            <view id="{{item.id}}" class="kind-list-item-hd">
+              <view wx:if="{{item.c_id===item.u_id}}" class="kind-list-text-true">{{item.name}}</view>
+              <view wx:if="{{item.c_id!==item.u_id}}" class="kind-list-text-false">{{item.name}}</view>
+              <!-- <view class="kind-list-text">{{item.c_id}}</view> -->
+              <image class="kind-list-img" wx:if="{{item.c_id==='可回收物'}}" src="../../../../images/kehuishou.png"></image>
+              <image class="kind-list-img" wx:if="{{item.c_id==='有害垃圾'}}" src="../../../../images/youhai.png"></image>
+              <image class="kind-list-img" wx:if="{{item.c_id==='厨余垃圾'}}" src="../../../../images/shi.png"></image>
+              <image class="kind-list-img" wx:if="{{item.c_id==='其他垃圾'}}" src="../../../../images/gan.png"></image>
+              <image class="kind-list-img-u" wx:if="{{item.u_id==='可回收物'}}" src="../../../../images/kehuishou.png"></image>
+              <image class="kind-list-img-u" wx:if="{{item.u_id==='有害垃圾'}}" src="../../../../images/youhai.png"></image>
+              <image class="kind-list-img-u" wx:if="{{item.u_id==='厨余垃圾'}}" src="../../../../images/shi.png"></image>
+              <image class="kind-list-img-u" wx:if="{{item.u_id==='其他垃圾'}}" src="../../../../images/gan.png"></image>
+              <view wx:if="{{item.c_id===item.u_id}}" class="kind-list-result-true">✓</view>
+              <view wx:if="{{item.c_id!==item.u_id}}" class="kind-list-result-false">✕</view>
+              <!-- <view class="kind-list-text-true" wx:if="{{item.c_id===item.u_id}}">{{item.u_id}}✓</view>
+              <view class="kind-list-text-false" wx:if="{{item.c_id!==item.u_id}}">{{item.u_id}}✕</view> -->
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>  
+</view>

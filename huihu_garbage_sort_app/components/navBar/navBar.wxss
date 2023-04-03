@@ -1,0 +1,8 @@
+/* components/navBar/navBar.wxss */
+.nav-bar {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: transport;
+    /* transport */
+  }

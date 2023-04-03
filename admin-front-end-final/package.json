@@ -1,0 +1,62 @@
+{
+  "name": "vue3-mall-admin-v2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "core-js": "^3.8.3",
+    "echarts": "^5.4.2",
+    "element-plus": "^1.0.2-beta.40",
+    "element-ui": "^2.15.13",
+    "moment": "^2.29.1",
+    "moment-mini": "^2.24.0",
+    "vue": "^3.0.4",
+    "vue-router": "4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0-alpha.8",
+    "@vue/cli-plugin-eslint": "~5.0.0-alpha.8",
+    "@vue/cli-service": "~5.0.0-alpha.8",
+    "@vue/compiler-sfc": "^3.0.4",
+    "eslint": "^7.20.0",
+    "eslint-plugin-vue": "^7.2.0",
+    "less": "^4.1.1",
+    "less-loader": "^8.1.1",
+    "sass": "^1.32.10",
+    "sass-loader": "^11.0.1",
+    "tailwindcss": "^3.2.7"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "no-console": "off",
+      "no-debugger": "off",
+      "no-mixed-spaces-and-tabs": "off",
+      "vue/no-deprecated-slot-attribute": "off",
+      "vue/no-deprecated-slot-scope-attribute": "off",
+      "vue/no-unused-slots": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

@@ -1,0 +1,21 @@
+ <!-- <view style="background-image: url(../../images/bg.jpeg);background-size: 100% 100%;" > -->
+<view class='top-view'>
+  <text>垃圾细分类，东大会更美</text>
+</view>
+<view class="cu-bar bg-darkGray search"bindtap="goSearch">
+  <view class=" search-form  round ">
+    <text class="cuIcon-search text-green"></text>
+    <view type="text" confirm-type="search" bindtap="searchIcon" class="font">输入垃圾名称</view>
+  </view>
+</view>
+<view class="padding-sm-wrapper">
+<view class="grid col-2 padding-sm">
+  <view class="padding-sm" wx:for="{{ColorList}}" bindtap="onClick"  data-index='{{index}}' wx:key>
+    <image class="icon" src='{{item}}'></image>
+  </view>
+</view>
+</view>
+<!-- <image src="data:image/svg+xml;base64,{{base64img}}"></image> -->
+
+
+

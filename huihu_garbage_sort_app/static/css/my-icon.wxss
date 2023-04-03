@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'my-iconfont';
+  src: url('data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAATkAA0AAAAACdAAAASQAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGh4GVgCCWhEICoZ8hWELEAABNgIkAxYEIAWFCAdRGzsIyB6FcbNTHZXKc9tfxJEP/Zb2Zpg1iBhUREkqKixUjHXiCm3P2DtP/KvmciZOIN1uvy/NQo8kkeS1FDIIkjRfdRherK2M9RtC8UUyvSwqzSy6NdJlIiUwRJrri0joFtqnjx/7D7gzEa88HAoAAeDVzb3cAPDO9d6bubsmgBiABKAIjhPBABRAOsiPCehJbwN4Afh+8iE13ADlSHDnXrBPDWDCm/z5bc78f1iRFkwABAAAnGxs76MoOoL9AmYEgOdG0Tf5s/mfFXx++/8C+6NtfmhzpM3LrUeBEKJkBgjYRANAgf8eAvgjpAoNALgAQBxABLICZAAAAAZo68ZhnItTjOMBtpgo8uxE3T0eMTa2hFgNUdFb11jL8/bJg7PNPYKgqr5EsLH/OB9HtiUu69ApQY+xd8MZVxgf3UccuXZzi8lqauQzgyG1vmVbOTe3WdUatjSlKLVbmzNqUzZ3PzzieG/VkuqJ1SAI0TpRVx6qR4cRrcWVBzOldk3U+6pImMpjwlZfIyzt9aevYHEuXct2JrrWhBcG1sQiRry4I/rqq48Vr1i3PUVRUmq3SurlaUrtYUlS1fqdrVppr732+usrFG+dKHptjc5aWjX4A+rjVXa5OrMGXRTUWWCeEn31VfPxYzu5xkKvbqF9+7x54U703iXr4t2667XCtyklr38e5t4Vnmn/zwZtPpQWrH++9RIhHJCneYo6bPynfSXp2MhjJn4ufyF91NoT37FS+rBNRtnK+DfeiI9RrMJFa8V5DadO7yzfvuv0qZ329qsDT53atd3eedp7fdvL8eWZ/fsfvd6ScORd4xGlPZjwrfC++8tel0XjUWBVm28mYcqlJ79PjmI9qLHHv1heOHjQosHemxJqaKHTdJVk3pDVVRUZw591h3+W/6aYs9Fbz5Fpo4URL0lX9mqyMcd4d9DcQeicpnE4PXDc+XCE9sLvKava/lDtmmp02/Xzc7/SNNRXxe3q5ka/7wd+XkocxmMaTIdpR+97InxomWP/02nybP/ulR1nd1TRtKU9vd+PYSMmT3/8nDar3/Q+fab3m7VXQg0tdJLvJfPUmiFaWpoWkVAzR8iS8d02tJ3WdsM06ucDAEAABIL3E0tXx4/51S0wDGvb9ay1+TZnAnCjAIDAUMQGA2AMKQYEN+sw3hvAwOtljNMTAbgEuQEABfB4wP8AAIAk74EAAEDUnwTCTQHKJQs4bk9RGGMjOAgugZPbh8DrF5PmC5KjHhzSPQD6AgBEgklAxVkJnARFFMZ4ERwku8ApwT3gqb4aL+gZ2eBNli9IV8iJB3TmUyZp8MuRLdSgEA/8XYtszpP9k58cqUwInw8sEhRWJJMuH/6oV23y6ilJVVC+AkZlZ7KBBsNevH554OCslOm67Oyk+plYoFhYaghRKOQTkg9nyNLZtCK6BWXKlKOz3PDPpAvyKzQQLnKSC4rDqYWFod277M2ybBGt+ruzE4iU31quUQYZJFSycyB/nUZsroyhzLLViXrCqwU8RnHdD0GDEo4w4uD9RTmFRroRLDXcubqRZWSHZRbQCw2XCw==') format('woff2');
+}
+
+.my-iconfont {
+  font-family: "my-iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dati:before {
+  content: "\e673";
+}
+
+.icon-cuotijiexi:before {
+  content: "\e613";
+}
+
+.icon-paiming:before {
+  content: "\e7cc";
+}
+
+.icon-paiming1:before {
+  content: "\e64f";
+}

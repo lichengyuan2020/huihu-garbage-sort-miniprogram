@@ -1,0 +1,27 @@
+<!--pages/me/text-history/text-history.wxml-->
+<view class="history-wrapper">
+    <view class="index-bd">
+      <view class="kind-list">
+        <view class="top-label">
+            <view class="label-text-time">搜索时间</view>
+            <view class="label-text-name">文本内容</view>
+            <view class="label-text-cat">所属类别</view>
+        </view>
+        <view class="container empty" wx:if="{{history_list.length === 0}}">
+          <!-- <image class="background" src="../../images/list/background.png" mode="aspectFit" /> -->
+          <view class="title">暂无拍照搜索历史</view>
+          <view class="subtitle">快去“搜索”页面体验一下吧！</view>
+          <footer></footer>
+        </view>
+        <block wx:for-items="{{history_list}}" wx:key="{{item.id}}">
+          <view class="kind-list-item-true">
+            <view id="{{item.id}}" class="kind-list-item-hd">
+              <view class="kind-list-text-stime">{{item.search_time}}</view>
+              <view class="kind-list-text-name">{{item.input}}</view>
+              <view class="kind-list-result">{{item.result}}</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>  
+</view>

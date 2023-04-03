@@ -1,0 +1,37 @@
+<!--pages/me/voice-history/voice-history.wxml-->
+<!-- <view class="container empty" wx:if="{{history_list.length === 0}}">
+  <view class="title">暂无语音搜索历史</view>
+  <view class="subtitle">快去“搜索”页面体验一下吧！</view>
+  <footer></footer>
+</view> -->
+
+<view class="history-wrapper">
+    <view class="index-bd">
+      <view class="kind-list">
+        <view class="top-label">
+            <view class="label-text">搜索时间</view>
+            <view class="label-text-score">语音内容</view>
+            <view class="label-text-score">识别结果</view>
+            <view class="label-text-more">所属类别</view>
+        </view>
+
+        <view class="container empty" wx:if="{{history_list.length === 0}}">
+            <!-- <image class="background" src="../../images/list/background.png" mode="aspectFit" /> -->
+            <view class="title">暂无语音搜索历史</view>
+            <view class="subtitle">快去“搜索”页面体验一下吧！</view>
+            <!-- <footer></footer> -->
+        </view>
+
+        <block wx:for-items="{{history_list}}" wx:key="id">
+          <view class="kind-list-item">
+            <view id="{{item.id}}" class="kind-list-item-hd">
+              <view class="kind-list-text">{{item.search_time}}</view>
+              <view class="kind-list-text">{{item.input}}</view>
+              <view class="kind-list-text">{{item.result}}</view>
+              <view class="kind-list-text">{{item.result_class}}</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>  
+</view>

@@ -1,0 +1,100 @@
+/* pages/me/voice-history/voice-history.wxss */
+.container.empty {
+    /* background: white; */
+    align-items: center;
+  }
+  
+  .container:last-child {
+    margin-bottom: calc( var(--footer-height) + 24px );
+  }
+  
+  .background {
+    width: 80vw;
+    margin-top: 12vh;
+  }
+  
+  .top-label{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin: 15px 0;
+    align-items: center;
+  }
+  .label-text{
+    flex: 1;
+    font-size: 30rpx;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .label-text-score{
+    flex: 1;
+    font-size: 30rpx;
+    text-align: center;
+    font-weight: bold;
+  }
+  .label-text-more{
+    flex: 1;
+    font-size: 30rpx;
+    text-align: right;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  .title {
+    margin-top: 48px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+    margin-top: 9px;
+    font-size: 14px;
+  }
+  
+  .history-wrapper{
+    margin-top: 10px;
+  }
+  .index-bd {
+    /* padding: 0 15px 20px; */
+    padding: 0 15px 20px;
+  }
+  .kind-list-item {
+    /* margin: 10px 0; */
+    margin: 15px 0;
+    background-color: var(--weui-BG-2);
+    /* border-radius: 2px; */
+    overflow: hidden;
+    border-radius: 10rpx;
+    box-shadow: 5rpx 5rpx 14rpx #8de0be;
+  }
+  .kind-list-item:first-child {
+    margin-top: 0;
+  }
+  .kind-list-text{
+    flex: 1;
+    font-size: 30rpx;
+    margin-left: 10px;
+  }
+  .kind-list-img {
+    /* width: 30px;
+    height: 30px; */
+    width: 30px;
+    height: 30px;
+  }
+  .kind-list-item-hd {
+    /* padding: 15px; */
+    padding: 15px;
+    display: flex;
+    align-items: center;
+  
+    transition: opacity .3s;
+  }
+  .kind-list-item-hd-show {
+    opacity: .2;
+  }
+  .kind-list-item-bd {
+    height: 0;
+    overflow: hidden;
+  }
+  .kind-list-item-bd-show {
+    height: auto;
+  }

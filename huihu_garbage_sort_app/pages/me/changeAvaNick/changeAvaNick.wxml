@@ -1,0 +1,11 @@
+<!--pages/me/changeAvaNick/changeAvaNick.wxml-->
+<text class="reminder">更改你的头像、昵称</text>
+<form bindsubmit="formSubmit">
+    <!-- 记得设置name值，这样JS才能接收name=keyword的值 -->
+    <button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+        <image wx:if="{{avatar_is_shown===false}}" class="avatar" src="../../../images/updateAvatar.png"></image>
+        <image wx:if="{{avatar_is_shown}}" class="avatar-shown" src="{{avatarUrl}}"></image>
+    </button>
+    <input type="text" name="keyword" class="nickname_input" placeholder='请输入昵称' bindinput="onSetNickname"/>
+    <button formType="submit" class="submit_btn" style="width: 320rpx;">提交</button>
+</form>

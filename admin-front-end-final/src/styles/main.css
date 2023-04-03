@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+      font-family: 'Material Symbols Rounded';
+      src: url(../fonts/MaterialSymbolsRounded.woff2) format("woff2");
+  }
+
+  @font-face {
+      font-family: 'OPlusSans';
+      font-weight: 500;
+      src: url(../fonts/OPlusSans3-Medium.ttf) format("truetype");
+  }
+
+  @font-face {
+      font-family: 'OPlusSans';
+      font-weight: 700;
+      src: url(../fonts/OPlusSans3-Bold.ttf) format("truetype");
+  }
+    
+  .material-symbols-rounded {
+      font-family: 'Material Symbols Rounded';
+      font-weight: 500;
+      font-style: normal;
+      font-size: 20px;
+      display: inline-block;
+      line-height: 1;
+      text-transform: none;
+      letter-spacing: normal;
+      word-wrap: normal;
+      white-space: nowrap;
+      direction: ltr;
+      user-select: none;
+      background: none !important;
+  }
+
+  .default-font {
+      font-family: 'OPlusSans';
+      font-weight: 500;
+  }
+
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* number of lines to show */
+            line-clamp: 1; 
+    -webkit-box-orient: vertical; 
+  }
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3; 
+    -webkit-box-orient: vertical; 
+  }
+
+  .el-dialog {
+    border-radius: 12px !important;
+    padding: 8px !important;
+  }
+  .el-dialog__body {
+    padding-bottom: 0 !important;
+  }
+  .el-form-item__label {
+    margin-right: 20px !important;
+  }
+
+
+}

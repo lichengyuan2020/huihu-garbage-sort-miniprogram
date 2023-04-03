@@ -1,0 +1,212 @@
+/* 搜索样式 */
+.title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+   }
+    
+   .search_con{
+    width: 80%;
+    margin:20px auto;
+   }
+    
+   .search_con .search_input{
+    border: 1px solid rgb(214, 211, 211);
+    height: 45px;
+    border-radius: 100px;
+    font-size: 17px;
+    padding-left: 15px;/*此处要用padding-left才可以把光标往右移动15像素，不可以用text-indent*/
+    color: #333;
+   }
+    
+   .search_con .search_btn{
+    /* margin-top: 15px;
+    width: 100%;
+    height: 45px;
+    background: #56b273;
+    color: #fff;
+    border-radius: 100px; */
+    margin-top: 15px;
+    width: 60%;
+    height: 70rpx;
+    background: #2e79fc;
+    color: #fff;
+    border-radius: 100rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 36rpx;
+   }
+    
+   .search_result{
+    width: 80%;
+    margin:10px auto;
+   }
+    
+   .search_result .empty{
+    text-align: center;
+    color: #f00;
+    font-size: 15px;
+   }
+    
+   .search_result .noresult{
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+   }
+    
+   .search_result .resname{
+    text-align: left;
+    color: #333;
+    font-size: 15px;
+   }
+
+   /* pages/search/search.wxss */
+.top-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .icon-box {
+    height: 100%;
+    width: 150rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1rpx solid #F3F4F6;
+    border-radius: 30rpx;
+  }
+  .split-line {
+    width: 1rpx;
+    height: 60%;
+    background-color: #F3F4F6;
+    margin: 0 16rpx;
+  }
+  .back-icon,
+  .home-icon {
+    height: 40rpx;
+    width: 40rpx;
+  }
+  .head-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-weight: 500;
+    font-size: 32rpx;
+  }
+  .search-section {
+    width: 100%;
+  }
+  .search-input {
+    background-color: #F3F4F6;
+    font-size: 26rpx;
+    padding: 0rpx 30rpx;
+    border-radius: 30rpx;
+    width: 94%;
+    margin: 30rpx auto;
+    box-sizing: border-box;
+    height: 60rpx;
+  }
+  .hot-list {
+    box-sizing: border-box;
+    width: 94%;
+    margin: 0rpx auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .hot-title {
+    font-size: 30rpx;
+    color: #333;
+    margin-bottom: 30rpx;
+    width: 100%;
+  }
+  .hot-topic-item {
+    box-sizing: border-box;
+    width: 50%;
+    padding-right: 20rpx;
+    margin-bottom: 40rpx;
+    display: flex;
+    align-items: center;
+  }
+  .item-order {
+    width: 40rpx;
+    font-size: 26rpx;
+    color: #999;
+  }
+  .item-order.top {
+    color: #F59A23;
+  }
+  .item-title {
+    font-size: 30rpx;
+    color: #333;
+    flex: 1;
+    min-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .relation-keyword {
+    font-size: 26rpx;
+    border-bottom: 1rpx solid #F3F4F6;
+    width: 94%;
+    display: flex;
+    height: 80rpx;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .rel-icon {
+    margin-right: 18rpx;
+  }
+  .relation-more {
+    margin: 0 auto;
+    width: 94%;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    font-size: 26rpx;
+    color: #3372D0;
+    border-bottom: 1rpx solid #F3F4F6;
+  }
+  .result-list {
+    margin-top: -30rpx;
+  }
+  .result-item {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30rpx 40rpx;
+    border-bottom: 16rpx solid #F3F4F6;
+  }
+  .rel-item-title {
+    height: 50rpx;
+    line-height: 50rpx;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 30rpx;
+  }
+  .rel-item-content {
+    line-height: 40rpx;
+    width: 100%;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
+    font-size: 26rpx;
+    color: #666;
+    margin: 6rpx 0rpx 16rpx;
+  }
+  .rel-item-other {
+    font-size: 22rpx;
+    color: #999;
+    line-height: 30rpx;
+    height: 30rpx;
+    width: 100%;
+  }

@@ -1,0 +1,28 @@
+<!-- 搜索框view -->
+<view class="search_con">
+    <!-- <nav-bar>
+        <view class="top-box" style="height: {{navHeight}}px;">
+            <view class="icon-box">
+                <image bindtap="redirectToBack" class="back-icon" src="../../images/back.png" />
+                <view class="split-line"></view>
+                <image bindtap="redirectToHome" class="home-icon" src="../../images/home_active.png" />
+            </view>
+            <view class="head-box">搜索</view>
+        </view>
+    </nav-bar> -->
+
+    <!-- 表单 -->
+    <form bindsubmit="formSubmit">
+        <!-- 记得设置name值，这样JS才能接收name=keyword的值 -->
+        <input auto-focus="true" type="text" name="keyword" class="search_input" placeholder="{{more_text==''?'输入您想查找的垃圾名':more_text}}" />
+        <button formType="submit" class="search_btn">搜索</button>
+    </form>
+</view>
+
+<!-- 搜索结果展示 -->
+<view wx:for="{{re}}" wx:key="re" class="search_result">
+    <view class="rel-item-title">{{item.rubbish_name}}
+    </view>
+    <view class="rel-item-content">{{item.rubbish_class}}
+    </view>
+</view>

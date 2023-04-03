@@ -1,0 +1,50 @@
+<view class="exam-ranking">
+  <view class="ranking-body">
+    <view class="ranking-item" wx:for="{{userRankList}}">
+      <view class="item-info">
+        <view class="num">
+          <block wx:if="{{index<3}}">
+            <text class="my-iconfont icon-paiming1 paiming-bg"></text>
+            <text class="info">{{index+1}}</text>
+          </block>
+          <block wx:else>
+            <text class="p-num">{{index+1}}</text>
+          </block>
+        </view>
+        <view class="img">
+          <image src="{{item.avatar}}"></image>
+        </view>
+        <view class="name">{{item.name}}</view>
+      </view>
+      <view class="integral">获得<text class="num">{{item.score||0}}</text>积分</view>
+    </view>
+    
+    
+  </view>
+
+  
+  
+    
+</view>
+<view class="myrank-wrapper">
+    <view class="myrank">
+      <view class="ranking-item">
+        <view class="item-info">
+          <view class="num">
+            <block wx:if="{{myrank.rank<4}}">
+              <text class="my-iconfont icon-paiming1 paiming-bg"></text>
+              <text class="info">{{myrank.rank}}</text>
+            </block>
+            <block wx:else>
+              <text class="p-num">{{myrank.rank}}</text>
+            </block>
+          </view>
+          <view class="img">
+            <image src="{{myrank.avatar}}"></image>
+          </view>
+          <view class="name">{{myrank.name}}</view>
+        </view>
+        <view class="integral">获得<text class="num">{{myrank.score||0}}</text>积分</view>
+      </view>
+    </view>
+  </view>

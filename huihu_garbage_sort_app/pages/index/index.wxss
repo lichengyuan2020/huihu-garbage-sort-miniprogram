@@ -1,0 +1,16 @@
+/**index.wxss**/
+.avatar {
+    margin-top: 50px;
+}
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.input {
+  margin-top: 200px;
+  text-align:center;
+}

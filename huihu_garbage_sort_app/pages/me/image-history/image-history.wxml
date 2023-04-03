@@ -1,0 +1,32 @@
+<!--pages/me/image-history/image-history.wxml-->
+
+
+<view class="history-wrapper">
+    <view class="index-bd">
+      <view class="kind-list">
+        <!-- <view class="top-label" wx:if="{{history_list.length != 0}}"> -->
+        <view class="top-label">
+            <view class="label-text">搜索图片</view>
+            <view class="label-text-score">搜索时间</view>
+            <view class="label-text-score">识别结果</view>
+            <view class="label-text-more">所属类别</view>
+        </view>
+        <view class="container empty" wx:if="{{history_list.length === 0}}">
+          <!-- <image class="background" src="../../images/list/background.png" mode="aspectFit" /> -->
+          <view class="title">暂无拍照搜索历史</view>
+          <view class="subtitle">快去“搜索”页面体验一下吧！</view>
+          <footer></footer>
+        </view>
+        <block wx:for-items="{{history_list}}" wx:key="id">
+          <view class="kind-list-item" bindtap="tomore" data-time="{{item.exam_time}}">
+            <view id="{{item.id}}" class="kind-list-item-hd">
+              <image class="kind-list-img" src="{{item.input}}" mode="aspectFill"></image>
+              <view class="kind-list-text">{{item.search_time}}</view>
+              <view class="kind-list-text">{{item.result}}</view>
+              <view class="kind-list-text">{{item.result_class}}</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>  
+</view>

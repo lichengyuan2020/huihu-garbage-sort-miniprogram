@@ -1,0 +1,40 @@
+<!--pages/user/user.wxml-->
+<view class="user-page">
+  <view class="top-wrapper">
+    <!-- <nav-bar>
+      <view class="tip-box" style="height: {{navHeight}}px; width: {{navHeight}}px"> -->
+        <!-- <image bindtap="handleOpen" class="info-icon" src="../../images/info.png" /> -->
+      <!-- </view>
+    </nav-bar> -->
+    <!-- 获取用户头像和昵称 -->
+    <view class="avatar-wrapper" >
+        <image bindtap="pagetochange" class="avatar" src="{{avatarUrl}}"></image>
+        <view bindtap="pagetochange" class="nick">{{Nickname}}</view>
+    </view> 
+    <!-- <input type="nickname" class="weui-input" placeholder="请输入昵称" bindtap="pagetochange"/> -->
+    <!-- <view bindtap="pagetochange" class="nick">{{Nickname}}</view> -->
+    <!--  -->
+    <view class="profile-wrapper">
+      <view wx:for="{{userProfileConfig}}" wx:key="index" class="profile-item" bindtap="{{item.key!=='examCount'?'toRank':'toHistory'}}">
+        <text class="profile-count">{{userInfo[item.key]}}</text>
+        <text class="profile-text">{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+  <!-- <view class="section-title">最近浏览</view> -->
+  <view class="history-wrapper">
+    <view class="index-bd">
+      <view class="kind-list">
+        <block wx:for-items="{{h_list}}" wx:key="id">
+          <view class="kind-list-item">
+            <view id="{{item.id}}" class="kind-list-item-hd" bindtap="pagetoHistory" data-page="{{item.topage}}">
+              <image class="kind-list-img" src="{{item.img}}"></image>
+              <view class="kind-list-text">{{item.name}}</view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>  
+
+  </view>
+</view>

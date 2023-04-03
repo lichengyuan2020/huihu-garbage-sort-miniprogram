@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+    <button class='avatar' open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+        <image class="userinfo-avatar" src="{{avatarUrl}}"></image>
+    </button> 
+    <input class="input" placeholder="请输入昵称"/> 
+</view>

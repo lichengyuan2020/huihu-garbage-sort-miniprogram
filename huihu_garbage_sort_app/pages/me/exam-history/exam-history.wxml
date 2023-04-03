@@ -1,0 +1,36 @@
+<!--pages/me/exam-history/exam-history.wxml-->
+<!-- <view class="top-label">
+  <view class="label-text">测试时间</view>
+  <view class="label-text-score">得分</view>
+  <view class="label-text-more">更多</view>
+</view> -->
+
+
+
+<view class="history-wrapper">
+    <view class="index-bd">
+      <view class="kind-list">
+        <view class="top-label">
+            <view class="label-text">答题时间</view>
+            <view class="label-text-score">得分</view>
+            <view class="label-text-more">更多</view>
+        </view>
+        <view class="container empty" wx:if="{{history_list == []}}">
+          <!-- <image class="background" src="../../images/list/background.png" mode="aspectFit" /> -->
+          <view class="title">暂无答题历史</view>
+          <view class="subtitle">快去“答题”页面参加垃圾分类测试吧！</view>
+          <footer></footer>
+        </view>
+        <block wx:for-items="{{history_list}}" wx:key="id">
+          <view class="kind-list-item" bindtap="tomore" data-time="{{item.exam_time}}">
+            <view id="{{item.id}}" class="kind-list-item-hd">
+              <view class="kind-list-text">{{item.exam_time}}</view>
+              <view class="kind-list-text">{{item.score}}</view>
+              <image class="kind-list-img" src="../../../images/my_next.png" ></image>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>  
+</view>
+

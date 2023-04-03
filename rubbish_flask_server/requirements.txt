@@ -1,0 +1,17 @@
+alembic==1.10.2
+aliyun_python_sdk_alinlp==1.0.16
+aliyun_python_sdk_core==2.13.36
+Flask==2.2.3
+Flask_Cors==3.0.10
+Flask_Migrate==2.7.0
+Flask_Script==2.0.6
+flask_sqlalchemy==3.0.3
+matplotlib==3.5.1
+numpy==1.21.5
+opencv_python==4.6.0.66
+Pillow==9.4.0
+requests==2.27.1
+scipy==1.7.3
+SQLAlchemy==1.4.32
+torch==1.7.1+cu110
+tqdm==4.64.0

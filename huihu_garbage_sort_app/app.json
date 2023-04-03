@@ -1,0 +1,61 @@
+{
+  "pages": [
+      "pages/home/home",
+      "pages/search/search",
+      "pages/list/list",
+      "pages/list/detail/index",
+      "pages/exam/exam",
+      "pages/exam/answer-run",
+      "pages/me/me",
+      "pages/me/exam-ranking/exam-ranking",
+      "pages/me/changeAvaNick/changeAvaNick",
+      "pages/me/exam-history/exam-history",
+      "pages/me/exam-history/more/more",
+      "pages/me/text-history/text-history",
+      "pages/me/voice-history/voice-history",
+      "pages/me/image-history/image-history",
+      "pages/logs/logs"
+  ],
+  "usingComponents": {
+      "nav-bar": "/components/navBar/navBar"
+    },
+  "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#3CB371",
+      "navigationBarTitleText": "慧湖垃圾通",
+      "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+      "color": "#626567",
+      "selectedColor": "#000000",
+      "backgroundColor": "#FFFFFF",
+      "list": [
+      {
+          "pagePath": "pages/home/home",
+          "text": "搜索",
+          "iconPath": "images/search_defaut.png",
+          "selectedIconPath": "images/search_select.png"
+          },
+        {
+          "pagePath": "pages/list/list",
+          "text": "列表",
+          "iconPath": "images/list.png",
+         "selectedIconPath": "images/list_selected.png"
+        },
+        {
+          "text": "答题",
+          "pagePath": "pages/exam/exam",
+          "iconPath": "images/exam.png",
+          "selectedIconPath": "images/exam_selected.png"
+        },
+        {
+          "pagePath": "pages/me/me",
+          "text": "我的",
+          "iconPath": "images/persional.png",
+          "selectedIconPath": "images/persional_1.png"
+        }
+      ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,42 @@
+.icon{
+  width: 220rpx;/*220*/
+  height: 220rpx;/*220*/
+  margin: 40rpx 40rpx;
+  border-radius: 40rpx;
+  background-color: #f6f6f6;
+  box-shadow: 7rpx 7rpx 14rpx gray;
+}
+.padding-sm-wrapper{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+}
+.padding-sm{
+  width: 100%;
+}
+.top-view{
+  font-size: 40rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 90rpx;
+}
+
+.bg-darkGray {
+	background-color:  #f6f6f6;
+	color:#ffffff;
+}
+.cu-bar .search-form {
+  background-color:  #ffffff;
+  box-shadow: 2rpx 2rpx 7rpx gray;
+  height: 80rpx;
+}
+.cu-bar{
+  margin-top: 60rpx;
+}
+.cuIcon-search{
+    font-size: 30rpx;
+}
+.font{
+    font-size: 30rpx;
+    color: gray;
+}
