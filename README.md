@@ -1,0 +1,1 @@
+# huihu-garbage-sort-miniprogram
