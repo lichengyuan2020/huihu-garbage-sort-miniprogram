@@ -1,13 +1,15 @@
-# 东南大学软件学院&中国高科 2023年研究生实训垃圾分类项目（慧湖垃圾通）
+# 慧湖垃圾通（东南大学软件学院&中国高科 2023年研究生实训垃圾分类项目）
 
-## 文档百度网盘链接：链接: https://pan.baidu.com/s/1WVD9wYCLb8Ab72NCOhvEHQ?pwd=ec9t 提取码: ec9t 
-
-### 项目演示视频：
+## 项目演示视频：
 
 1. 慧湖垃圾通-vue后端演示视频
 2. 慧湖垃圾通-小程序端演示视频
 
-链接: https://pan.baidu.com/s/1iJ7U9V0fYmlQl3okDjiXAA?pwd=55b7 提取码: 55b7 
+链接: https://pan.baidu.com/s/1iJ7U9V0fYmlQl3okDjiXAA?pwd=55b7 提取码: 55b7
+
+-----------
+
+## 文档百度网盘链接：链接: https://pan.baidu.com/s/1WVD9wYCLb8Ab72NCOhvEHQ?pwd=ec9t 提取码: ec9t  
 
 ### 文档包含：
 
