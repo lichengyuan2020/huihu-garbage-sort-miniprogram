@@ -4,7 +4,7 @@
 
 ## 项目演示视频：
 
-1. 慧湖垃圾通-vue后端演示视频
+1. 慧湖垃圾通-vue管理员端演示视频
 2. 慧湖垃圾通-小程序端演示视频
 
 百度网盘链接: https://pan.baidu.com/s/1iJ7U9V0fYmlQl3okDjiXAA?pwd=55b7 提取码: 55b7
