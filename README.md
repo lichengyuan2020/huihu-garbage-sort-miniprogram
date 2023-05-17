@@ -2,7 +2,12 @@
 
 ## 文档百度网盘链接：链接: https://pan.baidu.com/s/1WVD9wYCLb8Ab72NCOhvEHQ?pwd=ec9t 提取码: ec9t 
 
+### 项目演示视频：
 
+1. 慧湖垃圾通-vue后端演示视频
+2. 慧湖垃圾通-小程序端演示视频
+
+链接: https://pan.baidu.com/s/1iJ7U9V0fYmlQl3okDjiXAA?pwd=55b7 提取码: 55b7 
 
 ### 文档包含：
 
@@ -35,6 +40,6 @@
 3. rubbish_flask_server  后端代码
 
 
-## 项目组长：李程远
+## 项目组长：[李程远](https://github.com/lichengyuan2020)
 
-## 项目组员：张旭升、罗胜、汤迪
+## 项目组员：[张旭升](https://github.com/zxs20000)、[罗胜](https://github.com/rolsheng)、[汤迪](https://github.com/DannyTangDi)
