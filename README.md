@@ -5,11 +5,10 @@
 1. 慧湖垃圾通-vue后端演示视频
 2. 慧湖垃圾通-小程序端演示视频
 
-链接: https://pan.baidu.com/s/1iJ7U9V0fYmlQl3okDjiXAA?pwd=55b7 提取码: 55b7
+百度网盘链接: https://pan.baidu.com/s/1iJ7U9V0fYmlQl3okDjiXAA?pwd=55b7 提取码: 55b7
 
------------
 
-## 文档百度网盘链接：链接: https://pan.baidu.com/s/1WVD9wYCLb8Ab72NCOhvEHQ?pwd=ec9t 提取码: ec9t  
+## 项目文档：
 
 ### 文档包含：
 
@@ -31,9 +30,9 @@
 
 9. 慧湖垃圾通-里程碑计划
 
-   
+百度网盘链接: https://pan.baidu.com/s/1WVD9wYCLb8Ab72NCOhvEHQ?pwd=ec9t 提取码: ec9t  
 
-### 代码文件夹
+## 代码文件夹：
 
 1. huihu-garbage-sort_app 小程序前端代码
 
