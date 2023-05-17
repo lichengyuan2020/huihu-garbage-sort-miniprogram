@@ -1,6 +1,6 @@
 # 基于深度学习的垃圾分类小程序（慧湖垃圾通）
 
-* 东南大学&中国高科 2023年研究生实训获奖项目（新闻报道链接：https://mp.weixin.qq.com/s/_pjG0R7sbOoHmjvwxjLbSg）
+* 东南大学&中国高科 2023年研究生实训获奖项目（新闻报道链接：https://mp.weixin.qq.com/s/_pjG0R7sbOoHmjvwxjLbSg)
 
 ## 项目演示视频：
 
