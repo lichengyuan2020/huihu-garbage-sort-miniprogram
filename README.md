@@ -2,6 +2,24 @@
 
 * 东南大学&中国高科 2023年研究生实训获奖项目（新闻报道链接：https://mp.weixin.qq.com/s/_pjG0R7sbOoHmjvwxjLbSg)
 
+
+## 项目简介：
+
+![慧湖垃圾通_09.png](https://upload-images.jianshu.io/upload_images/13761245-ce8b2938ee2f1858.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![慧湖垃圾通_11.png](https://upload-images.jianshu.io/upload_images/13761245-4f759d2c8571c005.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![慧湖垃圾通_10.png](https://upload-images.jianshu.io/upload_images/13761245-a56787f479440bba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![慧湖垃圾通_12.png](https://upload-images.jianshu.io/upload_images/13761245-4a18304cb9820aa8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![慧湖垃圾通_13.png](https://upload-images.jianshu.io/upload_images/13761245-dc34c60833b947f3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![慧湖垃圾通_14.png](https://upload-images.jianshu.io/upload_images/13761245-5775201256cf00b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![慧湖垃圾通_15.png](https://upload-images.jianshu.io/upload_images/13761245-44daf7e5b7aab4f2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
 ## 项目演示视频：
 
 1. 慧湖垃圾通-vue管理员端演示视频
