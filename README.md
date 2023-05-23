@@ -11,7 +11,7 @@
 
 ![慧湖垃圾通_10.png](https://upload-images.jianshu.io/upload_images/13761245-a56787f479440bba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![慧湖垃圾通_12.png](https://upload-images.jianshu.io/upload_images/13761245-4a18304cb9820aa8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![慧湖垃圾通_18.png](https://upload-images.jianshu.io/upload_images/13761245-6a163be053efb69f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ![慧湖垃圾通_13.png](https://upload-images.jianshu.io/upload_images/13761245-4fa0bb941db955e7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
